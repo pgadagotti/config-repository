@@ -9,8 +9,6 @@ logging:
     console: "%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n" 
 
 spring:
-  profiles:
-    active: dev1
   jpa:
     hibernate:
       ddl-auto: none
